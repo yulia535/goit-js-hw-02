@@ -1,6 +1,7 @@
 const formatString = function (string) {
-  if (string.length <= 40) return string;
-  else {
+  if (string.length <= 40) {
+    return string;
+  } else {
     const normalizeString = string.slice(0, 40) + '...';
 
     return normalizeString;
